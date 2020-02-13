@@ -12,6 +12,18 @@ body {
     background-size: cover;
 }
 
+body::before {
+    box-shadow: 0 0 36px rgba(0, 0, 0, 0.34);
+    content: "";
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 1200px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
 
 .section_one {
     max-width: 1200px;
@@ -30,7 +42,6 @@ body {
     padding-left: 28px;
     padding-right: 28px;
     margin: 0 auto;
-    box-shadow: 0 0 36px rgba(0, 0, 0, 0.34);
     background-color: #ffffff;
 }
 
@@ -96,7 +107,6 @@ body {
 .wrapper_inner03 {
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 0 0 36px rgba(0, 0, 0, 0.34);
     background-color: #ffffff;
 }
 
@@ -414,7 +424,6 @@ body {
 .wrapper_picture {
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 0 0 36px rgba(0, 0, 0, 0.34);
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -693,7 +702,6 @@ body {
 .wrapper_popular {
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 0 0 36px rgba(0, 0, 0, 0.34);
     background-color: #ffffff;
 }
 
