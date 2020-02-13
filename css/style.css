@@ -13,7 +13,7 @@ body {
     position: relative;
 }
 
-body::before {
+/* body::before {
     box-shadow: 0 0 36px rgba(0, 0, 0, 0.34);
     content: "";
     height: 100%;
@@ -23,7 +23,7 @@ body::before {
     width: 1200px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-}
+} */
 
 
 .section_one {
@@ -889,7 +889,7 @@ body::before {
     border-left: 1px solid #535353;
 }
 
-.end_menu li +  li:hover {
+.end_menu li +  li:hover{
     color: #237a8a;
 }
 
@@ -919,3 +919,4 @@ body::before {
     font-family: "Open Sans";
     font-weight: 400;  
 }
+
